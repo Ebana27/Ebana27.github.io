@@ -1,0 +1,58 @@
+:root {
+    /* color */
+    --main_color: #020202;
+    --color: #fff;
+    --maj_color: #f88282;
+    --min_color: #f828a5;
+    --new-color: #254be4;
+
+    /* fonts */
+    --font_main: Roseblue;
+    --font_scnd: Ruluko-Regular;
+    --icon_font: ICONE;
+
+    /* size */
+    --size-main: 16pt;
+    --size-scnd: 18pt;
+}
+
+::selection {
+    background-color: var(--min_color);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+    opacity: 22px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--maj_color);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    opacity: 0;
+}
+
+/* ::-webkit-scrollbar-button {
+    background-color: var(--main_color);
+    width: 5px;
+    height: 12px;
+} */
+
+/* create a new class for a fx click events js of box */
+.content-box-plus {
+    box-shadow: 0px 0px 6px 3px var(--maj_color);
+    transition: all 0.5ms;
+    -webkit-transition: all .0.5ms;
+    -moz-transition: all .0.5ms;
+    -ms-transition: all .0.5ms;
+    -o-transition: all .0.5ms;
+}
+
+#envoyer-btn:hover {
+    box-shadow: 0px 0px 8px 3px var(--color);
+}

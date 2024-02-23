@@ -1,0 +1,84 @@
+#envoyer-btn {
+    animation: 5s sendBtn alternate ease-in;
+    -webkit-animation: 5s sendBtn alternate ease-in;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+@keyframes sendBtn {
+    0% {
+        transform: translateX(-30em);
+        -webkit-transform: translateX(-100em);
+        -moz-transform: translateX(-100em);
+        -ms-transform: translateX(-100em);
+        -o-transform: translateX(-100em);
+}
+    100% {
+        transform: translateX(1);
+        -webkit-transform: translateX(1);
+        -moz-transform: translateX(1);
+        -ms-transform: translateX(1);
+        -o-transform: translateX(1);
+}
+}
+
+/* .Level1 {
+    background-color: aqua;
+}
+
+.Level2 {
+    background-color: magenta;
+}
+
+.level3 {
+    background-color: greenyellow;
+} */
+
+.__item {
+    animation: infinite 30s ease-in-out tem;
+    -webkit-animation: infinite 30s ease-in-out tem;
+    flex-shrink: 0;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+@keyframes tem {
+    0%, 15%, 25% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+
+    30%, 40%, 50% {
+    transform: translateY(-600px);
+    -webkit-transform: translateY(-300px);
+    -moz-transform: translateY(-300px);
+    -ms-transform: translateY(-300px);
+    -o-transform: translateY(-300px);
+}
+
+    55%, 65%, 75% {
+    transform: translateY(-1200px);
+    -webkit-transform: translateY(-600px);
+    -moz-transform: translateY(-600px);
+    -ms-transform: translateY(-600px);
+    -o-transform: translateY(-600px);
+}
+
+    80%, 90% {
+        transform: translateY(-1400px);
+        -webkit-transform: translateY(-900px);
+        -moz-transform: translateY(-900px);
+        -ms-transform: translateY(-900px);
+        -o-transform: translateY(-900px);
+}
+}
+
