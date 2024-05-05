@@ -105,7 +105,7 @@
 
     main {
         width: 100%;
-        height: auto;
+        height: 300px;
         position: relative;
         top: 2em;
         display: flex;
@@ -115,11 +115,11 @@
     }
     
     main .__Text {
-        width: 70%;
+        width: 80%;
         height: auto;
         text-align: center;
         align-items: stretch;
-        margin: 2em auto;
+        margin: 1.2em auto;
     }
     
     .__Text {
